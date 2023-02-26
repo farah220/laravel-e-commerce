@@ -108,6 +108,7 @@
                 <!--end::Table body-->
             </table>
             <!--end::Table-->
+            {{ $contacts->links() }}
         </div>
         <!--end::Card body-->
     </div>

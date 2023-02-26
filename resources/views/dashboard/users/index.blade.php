@@ -162,6 +162,8 @@
                 @endif
             </table>
             <!--end::Table-->
+
+            {{$users->links()}}
         </div>
         <!--end::Card body-->
     </div>

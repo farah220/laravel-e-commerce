@@ -15,6 +15,7 @@ class HomeController extends Controller
         $products = Product::all();
         $sliders = Slider::all();
         return view('web.index',compact('products','sliders'));
+
     }
 
 

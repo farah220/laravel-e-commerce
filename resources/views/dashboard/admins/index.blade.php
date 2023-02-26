@@ -132,6 +132,7 @@
                 <!--end::Table body-->
             </table>
             <!--end::Table-->
+            {{$admins->links()}}
         </div>
         <!--end::Card body-->
     </div>

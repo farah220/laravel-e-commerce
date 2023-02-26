@@ -11,7 +11,7 @@ class AdminController extends Controller
 {
     public function index()
     {
-        $admins = Admin::all();
+        $admins = Admin::paginate(3);
         return view('dashboard.admins.index',compact('admins'));
     }
 

@@ -137,6 +137,7 @@
                 <!--end::Table body-->
             </table>
             <!--end::Table-->
+            {{$sliders->links()}}
         </div>
         <!--end::Card body-->
     </div>

@@ -11,7 +11,7 @@ class SliderController extends Controller
 
     public function index()
     {
-        $sliders = Slider::all();
+        $sliders = Slider::paginate(3);
         return view('dashboard.sliders.index',compact('sliders'));
     }
 

@@ -14,7 +14,7 @@ class SubscribersController extends Controller
 {
     public function index()
     {
-        $subscribers = Subscription::all();
+        $subscribers = Subscription::paginate(3);
         return view('dashboard.subscribers.index',compact('subscribers'));
     }
 

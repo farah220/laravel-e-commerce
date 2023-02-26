@@ -117,6 +117,7 @@
                 <!--end::Table body-->
             </table>
             <!--end::Table-->
+            {{ $subscribers->links() }}
         </div>
         <!--end::Card body-->
     </div>

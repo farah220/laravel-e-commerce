@@ -148,6 +148,7 @@
                 <!--end::Table body-->
             </table>
             <!--end::Table-->
+            {{$categories->links()}}
         </div>
         <!--end::Card body-->
     </div>
